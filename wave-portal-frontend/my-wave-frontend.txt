@@ -1,0 +1,29 @@
+// next is a simple version of react itself good for small projects
+// create a next app
+npx create-next app appname
+cd appname
+
+//change the index files and other component js files accordingly
+
+Creating connect button
+1. check if metamask is available in browser
+2. a button to connect (We can't connect to their wallet unless we explicitly provide connect button.
+Metamask will ask to find a connect button)
+3. if yes check for authorised(login) account
+
+// useState creates a state variable along with a function to update it
+// useEffect gives side effects and runs when the page is 
+
+What we gonna do is get the smart contract from a testnet and use it in our frontend!!!!!
+
+// Fetch the abi from artifacts move into a new file and import it
+// use the contract address of contract in the testnet which is saved
+
+in js new operator is used to create an instance of a user-defined object type or one of builtin object types which have a constructor function.
+
+// A "Provider" is what we use to actually talk to Ethereum nodes. 
+// A Signer in ethers is an abstraction of an Ethereum Account. signer can snd txn but can't sign a txn w/o broadcast
+
+// to get contract decoded code 
+var a = await provider.getCode(wavePortalContractAddress);
+console.log(a);
